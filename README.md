@@ -79,7 +79,7 @@ prod-support-automation-pack/
 | `api_status_checker.py` | API uptime + latency |
 | `sql_validator.py` | Pretty-format SQL |
 | `file_watcher.py` | Monitor directories for file creation |
-
+and more...
 ---
 
 ### 🐚 Shell Tools
@@ -90,7 +90,7 @@ prod-support-automation-pack/
 | `disk_usage_alert.sh` | Simple disk alert script |
 | `service_health.sh` | Quick service status checker |
 | `sftp_file_monitor.sh` | Watch SFTP folder for new files |
-
+and more...
 ---
 
 # 🚀 Quick Start
