@@ -1,0 +1,5 @@
+urls:
+  - name: google
+    url: https://www.google.com
+  - name: myapp
+    url: https://myapp.healthcheck/status

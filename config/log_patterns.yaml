@@ -1,0 +1,6 @@
+log_file: /var/log/app.log
+patterns:
+  - name: database_error
+    pattern: "ORA-|SQLSTATE|timeout"
+  - name: auth_failure
+    pattern: "authentication failed"
