@@ -1,0 +1,5 @@
+log_file: "test_log.log"
+keywords:
+  - "ERROR"
+  - "CRITICAL"
+  - "Exception"

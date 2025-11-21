@@ -61,6 +61,10 @@ prod-support-automation-pack/
 - Detects dropped files  
 - Useful for integration teams  
 
+### 🔐 **SSL Certificate Monitoring**
+- Checks expiration dates for domains
+- Alerts on upcoming expirations
+
 ### 📦 **File Tools**
 - Duplicate detection using MD5 hashing  
 - Safe cleanup scripts  
@@ -79,6 +83,9 @@ prod-support-automation-pack/
 | `api_status_checker.py` | API uptime + latency |
 | `sql_validator.py` | Pretty-format SQL |
 | `file_watcher.py` | Monitor directories for file creation |
+| `ssl_expiry_checker.py` | Check SSL certificate expiration |
+| `log_error_analyzer.py` | Scan logs for specific keywords |
+| `disk_space_monitor.py` | Check disk usage against threshold |
 and more...
 ---
 

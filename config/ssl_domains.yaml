@@ -1,0 +1,7 @@
+domains:
+  - host: google.com
+    port: 443
+  - host: github.com
+    port: 443
+  - host: expired.badssl.com
+    port: 443
