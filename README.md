@@ -86,6 +86,7 @@ prod-support-automation-pack/
 | `ssl_expiry_checker.py` | Check SSL certificate expiration |
 | `log_error_analyzer.py` | Scan logs for specific keywords |
 | `disk_space_monitor.py` | Check disk usage against threshold |
+| `system_monitor.py` | Monitor CPU and RAM usage |
 and more...
 ---
 

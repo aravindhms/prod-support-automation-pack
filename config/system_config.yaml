@@ -1,0 +1,8 @@
+# System Monitor Configuration
+
+# Thresholds for alerting (percentage)
+cpu_threshold: 80
+ram_threshold: 85
+
+# Check interval in seconds (if running in a loop, though script is designed for cron)
+check_interval: 60
