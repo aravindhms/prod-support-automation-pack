@@ -98,6 +98,7 @@ and more...
 | `disk_usage_alert.sh` | Simple disk alert script |
 | `service_health.sh` | Quick service status checker |
 | `sftp_file_monitor.sh` | Watch SFTP folder for new files |
+| `process_restarter.sh` | Auto-restart crashed processes |
 and more...
 ---
 
