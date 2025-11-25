@@ -68,6 +68,12 @@ prod-support-automation-pack/
 ### 📦 **File Tools**
 - Duplicate detection using MD5 hashing  
 - Safe cleanup scripts  
+- **[NEW] Log Archival**: Compress and rotate old logs
+
+### 🔌 **Connectivity & Scheduling**
+- **[NEW] Connectivity Checker**: Validate network reachability (TCP)
+- **[NEW] Cron Generator**: Easy crontab creation from YAML
+- **[NEW] Unified Alerting**: Slack, Teams, and Email support  
 
 ---
 
@@ -87,6 +93,9 @@ prod-support-automation-pack/
 | `log_error_analyzer.py` | Scan logs for specific keywords |
 | `disk_space_monitor.py` | Check disk usage against threshold |
 | `system_monitor.py` | Monitor CPU and RAM usage |
+| `connectivity_checker.py` | **[NEW]** Check TCP connectivity to hosts/ports |
+| `cron_generator.py` | **[NEW]** Generate crontab entries from config |
+| `alert_notifier.py` | **[NEW]** Shared module for Slack/Teams/Email alerts |
 and more...
 ---
 
@@ -99,6 +108,7 @@ and more...
 | `service_health.sh` | Quick service status checker |
 | `sftp_file_monitor.sh` | Watch SFTP folder for new files |
 | `process_restarter.sh` | Auto-restart crashed processes |
+| `log_archiver.sh` | **[NEW]** Archive and compress old logs |
 and more...
 ---
 
