@@ -1,0 +1,15 @@
+jobs:
+  - name: "Disk Space Monitor"
+    schedule: "*/30 * * * *"
+    script: "python/disk_space_monitor.py"
+    args: ""
+
+  - name: "API Status Checker"
+    schedule: "*/5 * * * *"
+    script: "python/api_status_checker.py"
+    args: ""
+
+  - name: "Log Archiver"
+    schedule: "0 2 * * *"
+    script: "shell/log_archiver.sh"
+    args: "/var/log/myapp 30"

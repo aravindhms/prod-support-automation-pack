@@ -1,0 +1,10 @@
+targets:
+  - name: "Google DNS"
+    host: "8.8.8.8"
+    port: 53
+  - name: "Localhost SSH"
+    host: "127.0.0.1"
+    port: 22
+  - name: "Example Web"
+    host: "example.com"
+    port: 80
